@@ -1,0 +1,16 @@
+{
+    "name": "patouillard/endle-framework",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Franck",
+            "email": "136079691+Freddyede@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
