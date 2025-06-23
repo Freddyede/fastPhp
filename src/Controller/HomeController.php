@@ -9,19 +9,19 @@ class HomeController extends AbstractController
 {
 
     #[Route('/', name: 'Home')]
-    public function index(): void
+    public function index(): mixed
     {
         self::setHeader('title', 'Accueil');
-        self::rendererViews('home/index.php', [
+        return self::rendererViews('home/index.php', [
             'controller_name' => 'HomeController@index'
         ]);
     }
 
     #[Route('/test', name: 'Test')]
-    public function test(): void
+    public function test(): mixed
     {
         self::setHeader('title', 'Test', 'sayHello');
-        self::rendererViews('home/test.php', [
+        return self::rendererViews('home/test.php', [
             'controller_name' => 'HomeController@test'
         ]);
     }
