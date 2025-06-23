@@ -203,4 +203,4 @@ Rapports de Vulnérabilités de Sécurité
 Si vous découvrez une faille de sécurité dans Fast PHP, veuillez envoyer un e-mail à security@fastphp.dev au lieu d'utiliser le traqueur de problèmes public. Toutes les vulnérabilités seront rapidement traitées.
 
 ## Licence
-Fast PHP est un logiciel open-source sous licence MIT.
+Fast PHP est un logiciel open-source sous [licence MIT](LICENSE).
